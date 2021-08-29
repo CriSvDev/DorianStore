@@ -31,25 +31,17 @@ document.querySelectorAll(".menuDesp")[0].addEventListener("click", function(){
 })
 
 // carousel
-$(document).ready(function(){
-    $('.customer-logos').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 4
-            }
-        }, {
-            breakpoint: 520,
-            settings: {
-                slidesToShow: 3
-            }
-        }]
+$(documentTwo).ready(function() {
+    $("#carousel").owlCarousel({
+        navigation : false,
+        slideSpeed : 500,
+        paginationSpeed : 800,
+        rewindSpeed : 1000,
+        singleItem:true,
+        autoPlay : true,
+        stopOnHover : true,
     });
-});
+  });
+  
+  
+  

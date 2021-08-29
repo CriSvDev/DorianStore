@@ -18,7 +18,7 @@ body{
     padding: 0px 0;
 }
 .nav-bar{
-    background: #0066FF;
+    background: #62078fe1;
     padding: 15px;
     display: block;
     color: rgb(253, 244, 244);
@@ -34,7 +34,7 @@ body{
 }
 
 .menu{
-    background: #0066FF;
+    background: #62078fe1;
     width: 43%;
     margin-left: -100%;
     transition: all 0.5s;
@@ -61,7 +61,7 @@ body{
     transition: all 0.5s;
 }
 .submenu .menu_link{
-    background: #0066FF;
+    background: #9862b3;
     padding-left: 30px;
     opacity: 0.9;
 }
@@ -78,16 +78,16 @@ body{
 
 @media (min-width: 1000px){
     .nav-bar{
-        display: none;
+    display: none;
     }
     .menu {
-        background: #0066FF;
+        background: #62078fe1;
         font-size: 1.0em;
-        height: 100px;
+        height: 80px;
         margin-left: 0;
         display: flex;
         width: 100%;
-        padding: 5px;
+        padding: 6px;
     }
     .container-submenu{
         position: relative;
@@ -257,7 +257,7 @@ body{
 	-moz-transition: width 1s;
     transition: width 1s;
 }
-.box.home      { background-color: #2d89ef; }
+.box.home      { background-color: #2572ca; }
 .box.about     { background-color: #00a300; }
 .box.portfolio { background-color: #e3a21a; }
 .box.services  { background-color: #9f00a7; }
@@ -460,7 +460,7 @@ body{
 /* footer*/
 
 footer{
-    background: #0066FF;
+    background: #62078fe1;
     padding-bottom: 0.1px;
 }
 
@@ -477,16 +477,17 @@ footer{
 .contact-us{
     padding-left: 10px;
     width: 40%;
-    color: #fff;
 }
 
 .brand{
+    color: rgb(252, 252, 252);
     font-weight: 500;
     font-size: 20px;
 }
 
 .brand+p{
-    font-weight: 500;
+    font-size: 10px;
+    color: rgb(252, 252, 252);
 }
 
 .social-media{
@@ -501,10 +502,10 @@ footer{
     margin-left: 20px;
     width: 60px;
     height: 60px;
-    border: 1px solid #fff;
+    border: 2px solid rgb(221, 220, 230);
     border-radius: 50%;
     text-align: center;
-    color: #fff;
+    color: rgb(235, 237, 247);
 }
 
 .social-media-icon i{
@@ -513,12 +514,13 @@ footer{
 }
 
 .social-media-icon:hover{
-    background: #fff;
-    color:#764ba2;
+    background: rgb(240, 236, 233);
+    color:#2c0b4e;
     
 }
-/*listas */
 
-.ul .theListaUno{
-    list-style-type: upper-roman;
+/*conver in var --*/
+
+h4{
+    text-align: center;
 }
